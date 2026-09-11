@@ -1,0 +1,28 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.deedsats.debug",
+      "sha256_cert_fingerprints": [
+        "72:D8:64:3A:77:6D:C0:F5:D2:52:1F:8F:80:67:29:DC:E4:9A:E7:BC:EC:B9:A8:1E:FE:E7:6E:B6:C6:91:28:92"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.deedsats.profile",
+      "sha256_cert_fingerprints": [
+        "72:D8:64:3A:77:6D:C0:F5:D2:52:1F:8F:80:67:29:DC:E4:9A:E7:BC:EC:B9:A8:1E:FE:E7:6E:B6:C6:91:28:92"
+      ]
+    }
+  }
+]
